@@ -361,7 +361,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\..\src\platform\user_periph_setup.c</Filename>
+          <Filename>E:\Nodle_NanoComputer\DA14531_ibeacon_project\DA14531_ibeacon_project_23March2023\src\platform\user_periph_setup.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\ibeacon_531\../src/platform/user_periph_setup.c\92</Expression>
         </Bp>
@@ -579,39 +579,39 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>170</LineNumber>
+          <LineNumber>194</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>133968082</Address>
+          <Address>133977834</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\Nodle_NanoComputer\DA14531_ibeacon_project\DA14531_ibeacon_project\src\user_app.c</Filename>
+          <Filename>..\src\ibeacon.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\ibeacon_531\../src/user_app.c\170</Expression>
+          <Expression>\\da14531_ibeacon\../src/ibeacon.c\194</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>179</LineNumber>
+          <LineNumber>125</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>0</Address>
+          <Address>133977670</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>E:\Nodle_NanoComputer\DA14531_ibeacon_project\DA14531_ibeacon_project\src\user_app.c</Filename>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\src\ibeacon.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression></Expression>
+          <Expression>\\da14531_ibeacon\../src/ibeacon.c\125</Expression>
         </Bp>
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>186</LineNumber>
+          <LineNumber>195</LineNumber>
           <EnabledFlag>0</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -620,23 +620,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>E:\Nodle_NanoComputer\DA14531_ibeacon_project\DA14531_ibeacon_project\src\user_app.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>187</LineNumber>
-          <EnabledFlag>0</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>E:\Nodle_NanoComputer\DA14531_ibeacon_project\DA14531_ibeacon_project\src\user_app.c</Filename>
+          <Filename>..\src\ibeacon.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -805,7 +789,7 @@
 
   <Group>
     <GroupName>sdk_arch</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1221,7 +1205,7 @@
 
   <Group>
     <GroupName>sdk_app</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1384,8 +1368,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\da1458x_config_advanced.h</PathWithFileName>
-      <FilenameWithoutPath>da1458x_config_advanced.h</FilenameWithoutPath>
+      <PathWithFileName>.\..\src\config\user_callback_config.h</PathWithFileName>
+      <FilenameWithoutPath>user_callback_config.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1396,7 +1380,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\da1458x_config_basic.h</PathWithFileName>
+      <PathWithFileName>..\src\config\da1458x_config_basic.h</PathWithFileName>
       <FilenameWithoutPath>da1458x_config_basic.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1408,8 +1392,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\user_callback_config.h</PathWithFileName>
-      <FilenameWithoutPath>user_callback_config.h</FilenameWithoutPath>
+      <PathWithFileName>..\src\config\user_profiles_config.h</PathWithFileName>
+      <FilenameWithoutPath>user_profiles_config.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1420,8 +1404,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\user_config.h</PathWithFileName>
-      <FilenameWithoutPath>user_config.h</FilenameWithoutPath>
+      <PathWithFileName>..\src\config\da1458x_config_advanced.h</PathWithFileName>
+      <FilenameWithoutPath>da1458x_config_advanced.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1432,8 +1416,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\user_modules_config.h</PathWithFileName>
-      <FilenameWithoutPath>user_modules_config.h</FilenameWithoutPath>
+      <PathWithFileName>..\src\config\user_config.h</PathWithFileName>
+      <FilenameWithoutPath>user_config.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1444,7 +1428,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\user_periph_setup.h</PathWithFileName>
+      <PathWithFileName>..\src\config\user_periph_setup.h</PathWithFileName>
       <FilenameWithoutPath>user_periph_setup.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1456,28 +1440,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\config\user_profiles_config.h</PathWithFileName>
-      <FilenameWithoutPath>user_profiles_config.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-  </Group>
-
-  <Group>
-    <GroupName>user_platform</GroupName>
-    <tvExp>1</tvExp>
-    <tvExpOptDlg>0</tvExpOptDlg>
-    <cbSel>0</cbSel>
-    <RteFlg>0</RteFlg>
-    <File>
-      <GroupNumber>8</GroupNumber>
-      <FileNumber>58</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\..\src\platform\user_periph_setup.c</PathWithFileName>
-      <FilenameWithoutPath>user_periph_setup.c</FilenameWithoutPath>
+      <PathWithFileName>..\src\config\user_modules_config.h</PathWithFileName>
+      <FilenameWithoutPath>user_modules_config.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1490,8 +1454,8 @@
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
-      <GroupNumber>9</GroupNumber>
-      <FileNumber>59</FileNumber>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>58</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>

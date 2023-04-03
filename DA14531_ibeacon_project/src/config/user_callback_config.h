@@ -165,11 +165,11 @@ static const struct app_bond_db_callbacks user_app_bond_db_callbacks = {
 static const catch_rest_event_func_t app_process_catch_rest_cb = NULL;
 
 static const struct default_app_operations user_default_app_operations = {
-    .default_operation_adv = ibeacon_adv_start,
+    .default_operation_adv = ibeacon_start,
 };
 
 static const struct arch_main_loop_callbacks user_app_main_loop_callbacks = {
-    .app_on_init            = ibeacon_on_init,
+    .app_on_init            = ibeacon_init,
 
     // By default the watchdog timer is reloaded and resumed when the system wakes up.
     // The user has to take into account the watchdog timer handling (keep it running,

@@ -1,6 +1,17 @@
 /* Copyright (c) Nodle,Inc*/
 
+#ifndef _IBEACON_H_
+#define _IBEACON_H_
+
 #include <stdint.h>
+#include "app_api.h"
+#include "app_bass.h"
+#include "app_findme.h"
+#include "app_proxr.h"
+#include "app_suotar.h"
+#include "app_callback.h"
+#include "app_prf_types.h"
+#include "app_default_handlers.h"
 
 #define FLAG0 	0x02
 #define FLAG1 	0x01
@@ -19,8 +30,8 @@
 #define DATASIZE 24
 #define MAJOR_MINOR_LEN 2
 #define IBEACON_LEN 0x1A
-#define MEASURED_POWER 0xC7
-#define ADV_INTERVAL_ms 100
+#define MEASURED_POWER 0xC6
+#define ADVERT_INT_MS 100 
 #define FLASH_DATA_START_LOCATION 0x10000
 
 /* Apple Proximity Beacon Advertising Packet Type */
@@ -36,6 +47,10 @@ typedef struct __attribute__ ((__packed__)) {
 	uint8_t measured_power;
 } ibeacon_payload_type;
 
-void ibeacon_adv_start(void);
-void ibeacon_on_init(void);
+void ibeacon_start(void);
+void ibeacon_init(void);
+void default_app_on_set_dev_config_complete(void);
+void default_app_on_db_init_complete( void );
+void default_app_generate_unique_static_random_addr(struct bd_addr *addr);
 
+#endif
