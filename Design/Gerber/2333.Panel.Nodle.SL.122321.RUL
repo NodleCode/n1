@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\cyrus\Dropbox\2333\Designs Cyrus\Nodle\Schem\122321\2333.Panel.Nodle.SL.122321.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
