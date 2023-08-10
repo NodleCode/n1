@@ -13,7 +13,7 @@ The following are required for this project
 
 3. Python (Version used: 3.10.8)
 
-4. Nodle Cash Mobile App (iOS or Android)
+4. Nodle Mobile App (iOS or Android)
 
 5. DA14531 SDK 6.0.16.1144
 
@@ -29,9 +29,9 @@ Connect the Dialog Development Kit to a Windows PC to power up the development k
 
 1. Device – This is currently the Dialog DA14531 Development Kit
 
-2. Beacon Detector – This is the Nodle Cash mobile application which detects the iBeacon and relays it to the Nodle Cloud. The Nodle Cash mobile application adds other attributes to the beacon like Accuracy, Altitude, Location details, etc.
+2. Beacon Detector – This is the Nodle mobile application which detects the iBeacon and relays it to the Nodle Cloud. The Nodle mobile application adds other attributes to the beacon like Accuracy, Altitude, Location details, etc.
 
-3. Nodle Cloud – Nodle Cloud receives the beacon information from the Nodle Cash Mobile App and stores it in its database. It also provides APIs to access the beacon information.
+3. Nodle Cloud – Nodle Cloud receives the beacon information from the Nodle Mobile App and stores it in its database. It also provides APIs to access the beacon information.
 
 ![Architecture](images/architecture.png)
 
@@ -176,9 +176,9 @@ Minor No (2 Bytes) - 0002
 
 The iBeacon can now be detected by any Mobile App.
 
-# 7. Nodle Cash App
+# 7. Nodle App
 
-Launch the Nodle Cash Mobile App on your mobile. The Nodle Cash app will detect the iBeacon and relay it to the Nodle Cloud.
+Launch the Nodle Mobile App on your mobile. The Nodle app will detect the iBeacon and relay it to the Nodle Cloud.
 
 # 8. Nodle Cloud
 
